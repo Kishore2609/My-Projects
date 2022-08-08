@@ -1,0 +1,9 @@
+Create database bookcrud;
+
+use bookcrud;
+
+//Tables will be created automatically
+
+SELECT * FROM bookcrud.user_model;
+
+insert into user_model values('admin@gmail.com','12345');
